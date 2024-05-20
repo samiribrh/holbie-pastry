@@ -175,6 +175,69 @@ nav ul li input {
     border-radius: 4px;
 }
 
+.newsletter {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(101, 67, 33, 0.8);
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+
+.newsletter .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newsletter h2 {
+    margin-bottom: 1em;
+}
+
+.newsletter p {
+    margin-bottom: 2em;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    background-color: #A67B5B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newsletter button:hover {
+    background-color: #3D2B1F;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .newsletter input[type="email"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .newsletter button {
+        width: 100%;
+    }
+}
+
 footer {
     background-color:  #654321;
     color: white;
