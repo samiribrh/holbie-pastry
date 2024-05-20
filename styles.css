@@ -11,12 +11,64 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em;
+    padding: 0.2em 3em;
 }
 
 header .logo {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+#searchBar {
+    width: 230px;
+    margin-top: 3px;
+    margin-left: 15px;
+    transition: width 0.3s ease;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-search-button {
+    cursor: pointer;
+    background-color: #0079ac;
+    height: 33px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    left: 17px;
+}
+
+.search-bar-search-button:hover {
+    background-color: rgba(10, 102, 194, 0.9)
+}
+
+.search-bar-search-button svg {
+    color: #fff;
+}
+
+.search-bar input {
+    width: 230px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 45px;
+    font-size: 15px;
+    transition: width 0.3s ease;
+}
+
+.logo-and-searchbar {
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
@@ -44,7 +96,7 @@ nav ul li input {
 
 .hero {
     position: relative;
-    background-image: url('https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/intro-1658850950.webp');
+    background-image: url('static/backgroundhome.webp');
     background-size: cover;
     background-position: center;
     color: white;
@@ -122,5 +174,5 @@ footer {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.2em 0;
 }
